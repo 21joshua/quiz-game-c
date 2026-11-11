@@ -11,6 +11,7 @@ external text file.
 - Fifty-Fifty lifeline
 - Skip Question lifeline
 - Prize money tracking
+- Enforced per-question time limits
 
 ## Requirements
 
@@ -38,4 +39,4 @@ The questions.txt file contains eight lines per question:
 7. Time limit in seconds
 8. Prize amount
 
-The time limit is currently displayed but not enforced.
+Each question has an enforced time limit. The countdown continues while using lifelines. If time expires, the game ends while retaining previously earned winnings.
